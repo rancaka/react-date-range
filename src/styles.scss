@@ -133,3 +133,18 @@ $calendar-shadow: rgba($calendar-color, 0.25) 0 0 1em !default;
         background: $calendar-day-hover-background;
     }
 }
+
+.rdr-InputDate {
+    font-size: 12px;
+    margin-bottom: 10px;
+
+    label {
+        display: block;
+        margin: 4px 0;
+    }
+
+   input {
+        width: 100%;
+        padding: 5px;
+    }
+}

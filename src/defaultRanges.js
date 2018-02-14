@@ -1,12 +1,12 @@
 export default {
-  'Today'         : {
-    startDate     : (now) => {
-      return now;
-    },
-    endDate       : (now) => {
-      return now;
-    }
-  },
+  // 'Today'         : {
+  //   startDate     : (now) => {
+  //     return now;
+  //   },
+  //   endDate       : (now) => {
+  //     return now;
+  //   }
+  // },
 
   'Yesterday'     : {
     startDate     : (now) => {

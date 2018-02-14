@@ -19,7 +19,8 @@ export const defaultClasses = {
   monthAndYearDivider        : 'rdr-MonthAndYear-divider',
   year                       : 'rdr-MonthAndYear-year',
   daySunday                  : 'rdr-Sunday',
-  daySpecialDay               : 'rdr-SpecialDay',
+  daySpecialDay              : 'rdr-SpecialDay',
+  inputDate                  : 'rdr-InputDate'
 };
 
 const defaultTheme = {
@@ -156,7 +157,7 @@ const defaultTheme = {
     display       : 'block',
     fontSize      : 12,
     color         : '#2c3e50',
-    padding       : '10px 14px',
+    padding       : '8px 14px',
     borderRadius  : '2px',
     background    : '#ecf0f1',
     textDecoration: 'none',

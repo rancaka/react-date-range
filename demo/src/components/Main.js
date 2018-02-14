@@ -159,6 +159,7 @@ export default class Main extends Component {
             />
           </div>
           <DateRange
+            enableInputDate={ true }
             linkedCalendars={ true }
             ranges={ defaultRanges }
             onInit={ this.handleChange.bind(this, 'predefined') }
