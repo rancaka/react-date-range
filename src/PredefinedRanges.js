@@ -112,7 +112,7 @@ class PredefinedRanges extends Component {
                   type="text"
                   defaultValue={ moment(this.props.range.startDate).format('DD MMM YYYY') }                  
                   onBlur={ this.handleBlur('startDate') } />
-                  { this.state.error.startDate && <div style={{ color: '#eb5055', fontSize: '10px' }}>Invalid format. Ex: <i>15 Dec 1994</i></div> }
+                  { this.state.error.startDate && <div style={{ color: '#eb5055', fontSize: '10px' }}>Invalid date. E.g. <i>15 Dec 1994</i></div> }
               </div>
               <div>
                 <label htmlFor="to">To:</label>
@@ -121,7 +121,7 @@ class PredefinedRanges extends Component {
                   type="text"
                   defaultValue={ moment(this.props.range.endDate).format('DD MMM YYYY') }
                   onBlur={ this.handleBlur('endDate') } />
-                  { this.state.error.endDate && <div style={{ color: '#eb5055', fontSize: '10px' }}>Invalid format. Ex: <i>15 Dec 1994</i></div> }                  
+                  { this.state.error.endDate && <div style={{ color: '#eb5055', fontSize: '10px' }}>Invalid date. E.g. <i>15 Dec 1994</i></div> }                  
               </div>
             </div>
           )
