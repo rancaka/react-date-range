@@ -97,6 +97,8 @@ class PredefinedRanges extends Component {
 
     const classes = { ...defaultClasses, ...classNames };
 
+    console.log(this.props.range);
+
     return (
       <div
         style={onlyClasses ? undefined : { ...styles['PredefinedRanges'], ...style }}
@@ -108,6 +110,7 @@ class PredefinedRanges extends Component {
               <div>
                 <label htmlFor="from">From:</label>
                 <input
+                  key={ this.props.range.startDate.unix() }
                   id="from"
                   type="text"
                   defaultValue={ moment(this.props.range.startDate).format('DD MMM YYYY') }                  
@@ -117,6 +120,7 @@ class PredefinedRanges extends Component {
               <div>
                 <label htmlFor="to">To:</label>
                 <input
+                  key={ this.props.range.endDate.unix() }                  
                   id="to"
                   type="text"
                   defaultValue={ moment(this.props.range.endDate).format('DD MMM YYYY') }
